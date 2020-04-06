@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:key="NOMBRE"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Nombre" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="MODE"
+        android:title="Dark mode" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_preference_1"
+        android:title="Switch preference" />
+    <PreferenceScreen>
+
+        <EditTextPreference
+            android:defaultValue="Nombre interno"
+            android:key="NOMBREIN"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Nombre secundario" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="CITA"
+            android:title="Cita" />
+    </PreferenceScreen>
+</PreferenceScreen>

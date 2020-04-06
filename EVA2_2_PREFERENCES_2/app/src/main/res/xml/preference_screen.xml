@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:key="NOMBRE"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Nombre" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="Sexo"
+        android:title="Sexo" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="Darkmode"
+        android:title="Dark mode" />
+    <Preference
+        android:fragment="com.example.eva2_2_preferences_2.BlankFragment"
+        android:title="Mas opciones..."></Preference>
+</PreferenceScreen>
